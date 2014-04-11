@@ -4,7 +4,8 @@ outlier rejector using tensor voting
 
 Need to setup opencv environment first. 
 
-Global variable usage
+Global variable usage:
+
 1. change the integer variable SIZE to size of data set. Size of data set needs to divide 2 if data type is line instead of point.
 
 2. DISTANCE is nearest neighbor distance, only points smaller than this distance will be counted.
@@ -14,7 +15,7 @@ Global variable usage
 4. tolerance is for preventing dividing 0, if two points are too close to each other.
 
 
-Things below need to be changed first.
+Things below need to be changed first:
 
 Change path of iofstream
 
